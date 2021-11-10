@@ -1,5 +1,8 @@
 body {
     background-color: black;
-    text-align: center;
+    
     color: rebeccapurple;
+}
+a {
+    color:yellow;
 }
