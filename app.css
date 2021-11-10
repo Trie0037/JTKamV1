@@ -1,8 +1,9 @@
 body {
-    background-color: black;
-    
-    color: rebeccapurple;
+  background-color: black;
+  text-align: center;
+  color: rebeccapurple;
 }
+
 a {
-    color:yellow;
+  color: yellow;
 }
