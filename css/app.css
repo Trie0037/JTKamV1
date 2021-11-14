@@ -1,0 +1,37 @@
+body {
+  background-color: #3932cc;
+  text-align: center;
+  color: #c7ffff;
+}
+
+header {
+  background-image: linear-gradient(
+    to left,
+    rgba(124, 230, 243, 255),
+    rgb(233, 116, 21)
+  );
+
+  text-align: center;
+}
+
+main {
+  background: #0c0500;
+  text-align: center;
+  color: #c7ffff;
+}
+
+a {
+  color: #c7ffff;
+}
+
+#numb {
+  text-align: left;
+}
+
+footer {
+  background-image: linear-gradient(
+    to right,
+    rgba(124, 230, 243, 255),
+    rgb(233, 116, 21)
+  );
+}
