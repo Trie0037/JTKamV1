@@ -1,5 +1,6 @@
 body {
   background-color: #3932cc;
+  margin: 0;
   text-align: center;
   color: #c7ffff;
 }
@@ -14,11 +15,24 @@ header {
   text-align: center;
 }
 
-main {
-  background: #0c0500;
+h2 {
+  font-size: x-large;
+}
+
+.colBackground {
+  background-color: rgb(12, 12, 12);
+  padding-bottom: 25px;
   text-align: center;
-  color: #c7ffff;
-  padding: 10px;
+}
+
+.columns {
+  display: flex;
+}
+
+.column {
+  width: 100%;
+  margin: 0 10px;
+  text-align: center;
 }
 
 a {
@@ -26,6 +40,8 @@ a {
 }
 
 #numb {
+  padding-top: 25%;
+  font-size: large;
   text-align: left;
 }
 

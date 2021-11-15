@@ -1,5 +1,6 @@
 body {
   background-color: #a7babe;
+  margin: 0;
   text-align: center;
   color: #fcfe89;
 }
@@ -9,20 +10,34 @@ header {
   text-align: center;
 }
 
-main {
-  background: #0c0500;
-  text-align: center;
-  color: #fcfe89;
-  padding: 10px;
+h2 {
+  font-size: x-large;
 }
 
+.colBackground {
+  background-color: black;
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.columns {
+  display: flex;
+}
+
+.column {
+  width: 100%;
+  margin: 0 10px;
+  text-align: center;
+}
 a {
   color: #fcfe89;
 }
 
 .point {
   text-align: left;
+  font-size: large;
   color: #fcfe89;
+  padding-top: 25%;
 }
 
 footer {
