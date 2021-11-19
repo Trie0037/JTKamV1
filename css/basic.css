@@ -1,0 +1,28 @@
+.container > div {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    color:darkgreen;
+}
+
+html, body {
+    background-color: darkolivegreen;
+    margin: 10px;
+}
+
+.container > div:nth-child(1n) {
+    background-color: greenyellow;
+}
+
+.container > div:nth-child(3n) {
+    background-color: rgb(207, 218, 191);
+}
+
+.container > div:nth-child(2n) {
+    background-color: rgb(17, 26, 5);
+}
+
+.container > div:nth-child(4n) {
+    background-color: rgb(152, 247, 9);
+}
